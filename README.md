@@ -29,6 +29,7 @@ Or, if you can eat it or drive it or give it to someone, it's a Resource.
 ## Definitions
 
 * [vf:Resource](https://github.com/valueflows/resource/blob/master/Resource.md)
+* [vf:Stock](https://github.com/valueflows/resource/blob/master/Stock.md)
 
 ## ResourceTypes are a Taxonomy
 
@@ -60,7 +61,7 @@ This can vary.  And people can be allowed within some boundaries of agreement to
 Here are some examples from manufacturing situations:
 
 * Unique identifier = an assigned serialized identifier, which is unique across manufacturers, due to agreements in an industry.  Examples are computers, vehicles, and other equipment.
-* Unique identifier = resourceType + lotID + location + owner: so in other words, the owner of the rights was part of the unique identifier of the resource, and if the resource got transferred from one owner to another, the first owner's resources would be decremented, and the second owner's resources would be incremented. 
+* Unique identifier = resourceType + lotID + location + owner: so in other words, the owner of the rights was part of the unique identifier of the resource, and if the resource got transferred from one owner to another, the first owner's resources would be decremented, and the second owner's resources would be incremented.
 
 Note in the last case, a transfer of rights means a different resource. This is common with resources that are not serialized, where one logical resource has a quantity greater than 1, and the individual instances are substitutable. (Think nuts and bolts, grain, strawberries, bottles of beer in cases, etc.)
 
@@ -78,4 +79,3 @@ An event can trigger incrementing or decrementing a resource.  Sometimes it does
 * [Porridge preparation](https://github.com/valueflows/valueflows/blob/master/use-cases/porridge-preparation.md)
 * [Olive oil request](https://github.com/valueflows/valueflows/blob/master/use-cases/olive-oil-request.md)
 * [Dental Care](https://github.com/valueflows/valueflows/blob/master/use-cases/dental-care.md)
-
